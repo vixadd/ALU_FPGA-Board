@@ -1,21 +1,15 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+////////////////////////////////////////////////////////////////////////////////// 
+// Engineer: David Kroell
 // 
-// Create Date:    15:07:48 06/12/2014 
-// Design Name: 
+// Create Date:    15:07:48 06/12/2017 
+// Design Name:    Adder Subtracter module functionality
 // Module Name:    adder 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Project Name:   ALU FPGA Board
+// Target Devices: Baysys Board
 //
-// Dependencies: 
 //
-// Revision: 
 // Revision 0.01 - File Created
-// Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
 module adder(

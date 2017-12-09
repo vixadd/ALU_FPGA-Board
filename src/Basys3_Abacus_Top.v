@@ -1,14 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: Digilent Inc.
-// Engineer: Varun Kondagunturi
-// 
-// Create Date:    17:08:26 06/12/2014 
-// Design Name: 
-// Module Name:    Abacus_Top_Module 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
+//
+// Engineer: David Kroell
+//
+// Create Date:    15:07:48 06/12/2017 
+// Design Name:    Adder Subtracter module functionality
+// Module Name:    adder
+// Project Name:   ALU FPGA Board 
+// Target Devices: Baysys Board
 //
 //
 // Description: 
