@@ -143,7 +143,7 @@ assign led[15:0] = sw[15:0];
 
 always @(*) begin
 
-if ( (btnU == 1) && (sw[15:8] <= sw[7:0]))  
+if ( (btnL == 0) && (btnR == 1) && (sw[15:8] <= sw[7:0]))  
 begin
 	
 B = twoC_diff[7:0];
@@ -155,7 +155,7 @@ B = twoC_diff[7:0];
 
 	end
 
-else if ( (btnU == 1) && (sw[15:8] >= sw[7:0] ))  
+else if ( (btnL == 0) && (btnR == 1) && (sw[15:8] >= sw[7:0] ))  
 	
 	begin
 B = diff[7:0];
@@ -168,7 +168,7 @@ B = diff[7:0];
 	end
 
 
-else if (btnD == 1) begin
+else if (btnL == 1) && (btnR == 0) begin
 
 B = Product[15:0];
 
@@ -179,7 +179,7 @@ B = Product[15:0];
          
 end
 
-else if (btnR == 1) begin
+else if (btnL == 1) && (btnR == 1) begin
  
 B1 = QU[7:0]; // bcdout1
 
@@ -190,7 +190,7 @@ B1 = QU[7:0]; // bcdout1
 
 end
 
-else if (btnL == 1) begin
+else if (btnR == 1) && (btnU == 1) && (btnL == 1) begin
 
 
 B2 = REM[7:0]; // bcdout2
